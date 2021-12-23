@@ -1,0 +1,53 @@
+
+<html>
+<link rel="stylesheet" type="text/css" href="css/login.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+
+
+<body>
+    <div class="sidebar col-md-5 col-lg-7 col-xl-6 ">
+        <img src="/draw2.png" class="img-fluid" alt="Phone image" height="635px" />
+    </div>
+    <div class="main col-md-9 col-lg-4 col-xl-6 offset-xl-1">
+        <form method="get" action="info.html">
+            <h3 style="text-align: center;"><b>Sign into your account</b></h3>
+           
+            <div class="form-outline mb-4">
+                <label class="form-label" for="form1Example13">Email address</label>
+                <input type="email" id="form1Example13" class="form-control form-control-lg" />
+            </div>
+
+         
+            <div class="form-outline mb-4">
+                <label class="form-label" for="form1Example23">Password</label>
+                <input type="password" id="form1Example23" class="form-control form-control-lg" />
+            </div>
+
+            <div class="d-flex justify-content-around align-items-center mb-4">
+              
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                    <label class="form-check-label" for="form1Example3"> Remember me </label>
+                </div>
+                <a href="#!">Forgot password?</a>
+            </div>
+
+         
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
+
+            <p class="text-center ">OR</p>
+
+
+            <button class="btn btn-lg btn-block btn btn-danger" style="background-color: #dd4b39;" type="submit">
+                <a href="/auth/google" style="color: azure;" class="fab fa-google me-2">SignIn with Google</a></button>
+            <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #6d87c0;" type="submit">
+                <a href="/auth/facebook" style="color: azure;" class="fab fa-facebook-f me-2">SignIn with facebook</a></button>
+               
+
+                <h5 style="text-align: right;">Don't Have an Account? <a href="register.html">Create Account</a></h5>
+        </form>
+    </div>
+
+</body>
+
+</html>

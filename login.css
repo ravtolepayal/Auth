@@ -1,0 +1,51 @@
+.container
+{
+width:auto;
+height:auto;
+margin:auto;
+overflow:hidden;	
+}
+.header
+{
+height:20px;
+background-color:rgb(254, 255, 255);	
+}
+
+.Main Context
+{
+height:600px;	
+
+}
+
+.Main
+{
+width:350px;
+height:600px;
+float:right;
+padding-top: 70px;
+overflow: auto;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background: rgb(121, 187, 187);
+}
+
+.Sidebar
+{
+width:50px;
+height:630px;
+float:left;
+background-color: rgb(100, 174, 199);
+
+}
+
+.footer
+{
+height:100px;
+background-color:black;	
+}
+
